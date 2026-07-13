@@ -4,28 +4,28 @@ export const infoObj = [
     name: "Aditya Patil",
     age: 28,
     education: "Msc BA",
-    contact: 9769460072,
+    contact: 9785698325,
   },
   {
     id: 2,
     name: "Kashyap Patil",
     age: 17,
     education: "12th",
-    contact: 7506227704,
+    contact: 9329679921,
   },
   {
     id: 3,
     name: "Smita Patil",
     age: 58,
     education: "MA MEd",
-    contact: 9819945521,
+    contact: 9819917251,
   },
   {
     id: 4,
     name: "Devidas Patil",
     age: 64,
     education: "Diploma",
-    contact: 9322689377,
+    contact: 9325295758,
   },
 ];
 
