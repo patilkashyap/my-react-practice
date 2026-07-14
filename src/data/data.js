@@ -97,5 +97,4 @@ export const names = [
   { id: 2, name: "Kashyap" },
   { id: 3, name: "Smita" },
   { id: 4, name: "Devidas" },
-  { id: 5, name: "Lucy" },
 ];

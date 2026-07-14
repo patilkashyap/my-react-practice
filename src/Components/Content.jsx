@@ -1,6 +1,8 @@
 import React from "react";
 import { favoriteObj, infoObj } from "../data/data";
-function Content({ currentValue }) {
+import MainContent from "./MainContent";
+import { useState } from "react";
+function Content({ currentValue, allNames }) {
   return (
     <div className="flex h-96 my-2 text-center">
       <div className="bg-gray-300 h-full w-64 flex flex-col justify-center">
@@ -19,7 +21,11 @@ function Content({ currentValue }) {
         </ul>
       </div>
       <div className="bg-gray-300 h-full w-full mx-2 flex items-center justify-center">
-        Main Content
+        <MainContent
+          infoObj={infoObj}
+          favoriteObj={favoriteObj}
+          allNames={allNames}
+        />
       </div>
       <div className="bg-gray-300 h-full w-64 flex items-center justify-center">
         <ol className="text-left">

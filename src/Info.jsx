@@ -12,7 +12,7 @@ function Info() {
     <div className="text-xl m-4">
       <Header />
       <Navigation onButtonClick={updateCurrentValue} allNames={names} />
-      <Content currentValue={current} />
+      <Content currentValue={current} allNames={names} />
       <Footer />
     </div>
   );
